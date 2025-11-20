@@ -1,13 +1,12 @@
 <div align="center">
 
 
-<div align="center">
+<p align="center">
   <img src="./welcome-tech.svg" width="100%" />
-</div>
+</p>
 
+<hr style="border: 0; height: 1px; background: #2a2a2a;" />
 
-
----
 
 ### ⚡ Tech Stack
 
