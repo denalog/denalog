@@ -7,7 +7,7 @@
 
 
 
-### 💼 What I Do
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="25" height="25" /> What I Do
 
 📀서비스 **기획 → 설계 → 개발 → 배포**까지 전체 플로우를 직접 운영합니다.  
 💡사용자 경험을 최우선으로 두고, 작은 인터랙션까지 세심하게 다듬는 걸 좋아해요.  
