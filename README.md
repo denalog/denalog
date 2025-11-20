@@ -3,7 +3,7 @@
   ### 👋 Hi, I'm Jena
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=800&color=00E7FF&center=true&vCenter=true&width=650&lines=Frontend-based+Fullstack+Developer;End-to-End+Product+Builder;Senseiner+%E2%9A%A1+Combining+Sense+%26+Engineering" />
+  <img src="./diary-typing.svg" />
 </p>
 
   ---
