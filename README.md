@@ -1,6 +1,5 @@
 <div align="center">
 
-  ### 👋 Hi, I'm Jena
 
 <p align="center">
   <img src="./welcome-typing.svg" />
