@@ -6,12 +6,6 @@
 </p>
 
 
-<p align="center">
-  <img src="./tech-neon.svg" />
-</p>
-
-
-</div>
 
 ---
 
