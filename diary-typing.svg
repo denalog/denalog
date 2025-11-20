@@ -1,0 +1,79 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: #fdf7f0;
+    }
+    .line {
+      stroke: #f0e0d0;
+      stroke-width: 1;
+    }
+    .margin {
+      stroke: #ff9aa2;
+      stroke-width: 2;
+    }
+    .text {
+      font-family: "Pretendard","Noto Sans KR","Noto Sans","Segoe UI",sans-serif;
+      font-size: 20px;
+      fill: #444444;
+    }
+    #reveal {
+      animation: reveal 6s linear forwards;
+    }
+    @keyframes reveal {
+      from { height: 0; }
+      to   { height: 140px; }
+    }
+  </style>
+
+  <defs>
+    <!-- 그림자 -->
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feOffset result="offOut" in="SourceAlpha" dx="0" dy="4" />
+      <feGaussianBlur result="blurOut" in="offOut" stdDeviation="8" />
+      <feColorMatrix result="blurOut" in="blurOut"
+        type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.25 0" />
+      <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    </filter>
+
+    <!-- 글씨가 아래로 쭉 나타나는 영역 -->
+    <clipPath id="clip-text">
+      <rect id="reveal" x="80" y="70" width="720" height="0" />
+    </clipPath>
+  </defs>
+
+  <!-- 다이어리 배경 -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="20" width="820" height="220" rx="18" class="bg" />
+
+    <!-- 가로 줄 -->
+    <line x1="70" x2="830" y1="90" y2="90" class="line" />
+    <line x1="70" x2="830" y1="125" y2="125" class="line" />
+    <line x1="70" x2="830" y1="160" y2="160" class="line" />
+    <line x1="70" x2="830" y1="195" y2="195" class="line" />
+
+    <!-- 왼쪽 마진 라인 -->
+    <line x1="95" x2="95" y1="40" y2="220" class="margin" />
+
+    <!-- 위쪽에 살짝 장식 -->
+    <circle cx="120" cy="50" r="4" fill="#ffb6c1" />
+    <circle cx="140" cy="50" r="4" fill="#ffd28c" />
+    <circle cx="160" cy="50" r="4" fill="#a5d8ff" />
+  </g>
+
+  <!-- 글씨 (clipPath로 아래로 쭉 나타남) -->
+  <g clip-path="url(#clip-text)">
+    <text class="text" x="115" y="105">
+      프론트엔드 베이스의 풀스택 개발자입니다.
+    </text>
+    <text class="text" x="115" y="140">
+      기획부터 배포까지 End-to-End로 만드는 걸 좋아하고,
+    </text>
+    <text class="text" x="115" y="175">
+      감각(Sense)과 기술(Engineer)을 결합한 Senseiner 입니다.
+    </text>
+  </g>
+</svg>
