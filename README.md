@@ -2,9 +2,14 @@
 
   ### 👋 Hi, I'm Jena
 
+<h1 align="center">Welcome! ✨</h1>
+
 <p align="center">
-  <img src="./diary-typing.svg" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00E7FF&center=true&vCenter=true&width=650&lines=This+is+Jena%27s+GitHub+space.;Welcome+and+enjoy+exploring+my+projects!"
+  />
 </p>
+
 
   ---
 
