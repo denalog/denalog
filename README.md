@@ -72,30 +72,20 @@
 <div align="center">
 
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_ID&show_icons=true&theme=radical" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=denalog&show_icons=true&theme=radical" height="165" />
 
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_ID&layout=compact&theme=radical" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ydenalog&layout=compact&theme=radical" height="165" />
 
   <!-- Streak -->
-  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_ID&theme=radical" height="165" />
+  <img src="https://streak-stats.demolab.com?user=Ydenalog&theme=radical" height="165" />
 
 </div>
 
----
-
-### 🧠 Problem Solving & Study
-
-- 알고리즘 문제 풀이로 사고력을 꾸준히 훈련하고 있어요.  
-- 새로운 스택을 접하면 **미니 사이드 프로젝트**부터 만들어보는 스타일입니다.  
-- 기록을 중요하게 생각해서, 학습/프로젝트 회고를 블로그와 노션에 남깁니다.
-
----
 
 ### 💬 Contact & Links
 
-- Email : your.email@example.com  
-- Portfolio / Blog : https://your-portfolio-or-blog.link  
-- LinkedIn or 기타 : https://your-link-here
+- Email : higoonggi0906@gmail.com
+- Portfolio / Blog : https://denalog.gihub.io
 
 함께 이야기 나누거나 협업하고 싶다면 언제든 편하게 연락 주세요 🙌
