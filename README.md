@@ -1,6 +1,5 @@
 <div align="center">
 
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&letterSpacing=0.2rem&duration=500&pause=100&color=FF60E4&background=000000&center=true&multiline=true&repeat=false&width=800&height=480&lines=Welcome!;%F0%9F%91%8B+Hi%2C+I'm+Jena!;%F0%9F%92%A1+A+frontend-rooted+Full-Stack+Developer++%F0%9F%92%A1;who+loves+building+end-to-end+%E2%80%94+;from+shaping+ideas+and+designing+flows+to;implementing+features++%26+shipping+products.;+;+;%F0%9F%A7%A9+Tech+Stack+%26+Focus+Areas;%F0%9F%94%AD+Recently+focusing+on;Next.js%2C+Nuxt3%2C+TypeScript%2C+AWS%2C;and+exploring+the+world+of;LLMs%2C+RAG+systems%2C+and+practical+AI+engineering.;+;+%F0%9F%A7%AA+I+love+documenting+what+I+learn%2C;refining+processes%2C+and+building+structure;through+Agile+practices+%26+domain-driven+thinking+(DDD).;+;%E2%9C%A8+Thanks+for+visiting+my+GitHub+%E2%9C%A8)](https://git.io/typing-svg)
 
 
