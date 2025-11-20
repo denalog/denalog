@@ -2,7 +2,7 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"  
+    - cron: "0 18 * * *"   # 매일 03:00 JST
   workflow_dispatch:
 
 jobs:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-         with:
-          token: ${{ secrets.APPLE }}   
+        with:
+          token: ${{ secrets.JANDI }}
 
       - name: Generate 3D Profile
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.APPLE }}
+          GITHUB_TOKEN: ${{ secrets.JANDI }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
