@@ -32,6 +32,6 @@
 ### 💬 Contact & Links
 
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Clown%20Face.png" alt="Clown Face" width="25" height="25" />Email : higoonggi0906@gmail.com
-💜Portfolio / Blog : https://denalog.gihub.io
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20in%20Clouds.png" alt="Face in Clouds" width="25" height="25" />Portfolio / Blog : https://denalog.gihub.io
 
 함께 이야기 나누거나 협업하고 싶다면 언제든 편하게 연락 주세요 🙌
