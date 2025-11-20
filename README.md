@@ -75,7 +75,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=denalog&show_icons=true&theme=radical" height="165" />
 
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ydenalog&layout=compact&theme=radical" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=denalog&layout=compact&theme=radical" height="165" />
 
   <!-- Streak -->
   <img src="https://streak-stats.demolab.com?user=Ydenalog&theme=radical" height="165" />
