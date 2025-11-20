@@ -1,19 +1,12 @@
 <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg {
-      fill: #fdf7f0;
-    }
-    .line {
-      stroke: #f0e0d0;
-      stroke-width: 1;
-    }
-    .margin {
-      stroke: #ff9aa2;
-      stroke-width: 2;
-    }
+    .bg { fill: #fdf7f0; }
+    .line { stroke: #f0e0d0; stroke-width: 1; }
+    .margin { stroke: #ff9aa2; stroke-width: 2; }
+
     .text {
       font-family: "Pretendard","Noto Sans KR","Noto Sans","Segoe UI",sans-serif;
-      font-size: 20px;
+      font-size: 22px;
       fill: #444444;
     }
   </style>
@@ -32,15 +25,37 @@
       <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
     </filter>
 
-    <!-- 타이핑 마스크: 왼쪽에서 오른쪽으로 한 번만 쭉 -->
-    <mask id="typing-mask">
-      <rect x="80" y="70" width="0" height="140" fill="white">
-        <animate
-          attributeName="width"
-          from="0"
-          to="720"
-          dur="4s"
-          fill="freeze" />
+    <!-- 줄별 타이핑 마스크 -->
+    <mask id="mask-line1">
+      <rect x="80" y="85" width="0" height="30" fill="white">
+        <animate id="anim1"
+                 attributeName="width"
+                 from="0" to="720"
+                 dur="2s"
+                 begin="0s"
+                 fill="freeze" />
+      </rect>
+    </mask>
+
+    <mask id="mask-line2">
+      <rect x="80" y="120" width="0" height="30" fill="white">
+        <animate id="anim2"
+                 attributeName="width"
+                 from="0" to="720"
+                 dur="2.2s"
+                 begin="anim1.end+0.3s"
+                 fill="freeze" />
+      </rect>
+    </mask>
+
+    <mask id="mask-line3">
+      <rect x="80" y="155" width="0" height="30" fill="white">
+        <animate id="anim3"
+                 attributeName="width"
+                 from="0" to="720"
+                 dur="2.4s"
+                 begin="anim2.end+0.3s"
+                 fill="freeze" />
       </rect>
     </mask>
   </defs>
@@ -58,22 +73,24 @@
     <!-- 왼쪽 마진 라인 -->
     <line x1="95" x2="95" y1="40" y2="220" class="margin" />
 
-    <!-- 위쪽에 살짝 장식 -->
+    <!-- 위쪽 장식 -->
     <circle cx="120" cy="50" r="4" fill="#ffb6c1" />
     <circle cx="140" cy="50" r="4" fill="#ffd28c" />
     <circle cx="160" cy="50" r="4" fill="#a5d8ff" />
   </g>
 
-  <!-- 글씨 (타이핑 마스크로 가로로 나타남) -->
-  <g mask="url(#typing-mask)">
-    <text class="text" x="115" y="105">
-      I'm a full-stack developer with a frontend background.
-    </text>
-    <text class="text" x="115" y="140">
-      I love building products end-to-end, from planning to deployment.
-    </text>
-    <text class="text" x="115" y="175">
-      I call myself a "Senseiner" – combining Sense and Engineering.
-    </text>
-  </g>
+  <!-- 1줄: mask-line1 으로 왼→오 타이핑 -->
+  <text class="text" x="115" y="105" mask="url(#mask-line1)">
+    I'm a full-stack developer with a frontend background.
+  </text>
+
+  <!-- 2줄: 첫 줄 끝난 뒤 시작 -->
+  <text class="text" x="115" y="140" mask="url(#mask-line2)">
+    I love building products end-to-end, from planning to deployment.
+  </text>
+
+  <!-- 3줄: 두 번째 줄 끝난 뒤 시작 -->
+  <text class="text" x="115" y="175" mask="url(#mask-line3)">
+    I call myself a "Senseiner" — combining Sense and Engineering.
+  </text>
 </svg>
