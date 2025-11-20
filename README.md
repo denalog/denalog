@@ -8,10 +8,10 @@
 
   ---
 
-  #### 🧩 Tech Stack & Interests
+<p align="center">
+  <img src="./tech-neon.svg" />
+</p>
 
-  🔭 요즘은 **Next.js / Nuxt3 / TypeScript / AWS / LLM & RAG** 에 집중하고 있어요.  
-  🚀 애자일 프로세스 + 도메인 기반(DDD) 설계를 지키는 팀 개발을 선호합니다.  
 
 </div>
 
