@@ -2,9 +2,9 @@
 
   ### 👋 Hi, I'm Jena
 
-  프론트엔드 베이스의 풀스택 개발자입니다.  
-  기획부터 배포까지 End-to-End로 만드는 걸 좋아하고,  
-  감각(Sense)과 기술(Engineer)을 결합한 **Senseiner** 를 지향하고 있어요.  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=800&color=00E7FF&center=true&vCenter=true&width=650&lines=Frontend-based+Fullstack+Developer;End-to-End+Product+Builder;Senseiner+%E2%9A%A1+Combining+Sense+%26+Engineering" />
+</p>
 
   ---
 
